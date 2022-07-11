@@ -18,3 +18,4 @@ def find_longest_path(g):
         return 0, longest_path
     else:
         return longest - 1, longest_path
+    
