@@ -17,7 +17,3 @@ def generate_random_graph(n, m):
         g.add_edge(source, target)
     
     return(g)
-
-output = generate_random_graph(20, 190)
-
-ig.plot(output)
